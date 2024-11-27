@@ -48,6 +48,11 @@ export default function Skill(){
                 src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
                 /> Express </Text>
                 </Button>
+                <Button marginTop={10} marginLeft={50} size= {"lg"} rounded={"2xl"} height={"36"}  width={200} _hover={{borderColor:"white"}} ><Text> <Image 
+                height="85px" marginTop={3}marginBottom={4}
+                src="https://w7.pngwing.com/pngs/448/730/png-transparent-postgresql-plain-logo-icon.png"
+                /> PostgreSQL </Text>
+                </Button>
                 </Flex>
 
         </div>

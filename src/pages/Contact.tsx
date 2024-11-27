@@ -22,7 +22,7 @@ export default function Contact(){
 
             <Fieldset.Root size="lg" marginLeft={400}  maxW="md">
       <Stack>
-        <Fieldset.Legend color="white">Contact details</Fieldset.Legend>
+        <Fieldset.Legend color="white">Contact Form</Fieldset.Legend>
         <Fieldset.HelperText color="white">
           Please provide your contact details below.
         </Fieldset.HelperText>
@@ -45,6 +45,7 @@ export default function Contact(){
                 "United Kingdom (UK)",
                 "Canada (CA)",
                 "United States (US)",
+                "Indonesia (ID)",
               ]}
             />
           </NativeSelectRoot>

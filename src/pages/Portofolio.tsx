@@ -1,5 +1,5 @@
 
-import { Text, Separator, Flex, Image, Span, Center, Grid } from "@chakra-ui/react"
+import { Text, Separator, Flex, Image, Span, Grid } from "@chakra-ui/react"
 import { Button } from "@/components/ui/button"
 import {
   DialogBody,
@@ -10,7 +10,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { BsJustify } from "react-icons/bs"
+
 
 
 export default function Portofolio(){

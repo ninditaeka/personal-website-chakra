@@ -16,7 +16,7 @@ export default function Skill(){
                     <Box justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} color={"white"} padding={{base:"8px", md:"10px"}} _hover={{backgroundColor:"white",color:"black"}} minWidth={{base:"102px", md:"200px"}}>
                     <Image 
                             height={{base:"50px", md:"100px"}}
-                            src="https://academy.alterra.id/blog/wp-content/uploads/2021/07/Logo-Javascript.png"
+                            src="https://academy.alterra.id/blog/wp-content/uploads/2021/07/Logo-Javascript.png" alt="Javascript"
                     />
                         <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"center"}   >  Javascript
                         </Text>
@@ -24,7 +24,7 @@ export default function Skill(){
                     <Box justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} color={"white"} padding={{base:"8px", md:"10px"}} _hover={{backgroundColor:"white", color:"black"}} minWidth={{base:"102px", md:"200px"}}>
                     <Image 
                             height={{base:"50px", md:"100px"}}
-                            src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-html-5-icon.png"
+                            src="https://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-html-5-icon.png" alt="HTML"
                     />
                         <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"center"}  >  HTML
                         </Text>
@@ -32,7 +32,7 @@ export default function Skill(){
                     <Box  justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}} color={"white"} _hover={{backgroundColor:"white", color:"black"}} minWidth={{base:"102px", md:"200px"}} >
                     <Image 
                             height={{base:"50px", md:"100px"}}
-                            src="https://img.icons8.com/fluent/200/css3.png"
+                            src="https://img.icons8.com/fluent/200/css3.png" alt="CSS"
                     />
                         <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"center"}   > CSS
                         </Text>
@@ -40,7 +40,7 @@ export default function Skill(){
                     <Box   justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}} color={"white"} _hover={{backgroundColor:"white", color:"black"}}  minWidth={{base:"102px", md:"200px"}}>
                     <Image 
                             height={{base:"50px", md:"100px"}}
-                            src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png"
+                            src="https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png" alt="React"
                     />
                         <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"center"}  > React
                         </Text>
@@ -55,7 +55,7 @@ export default function Skill(){
                 <Box justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}} color={"white"} _hover={{backgroundColor:"white", color:"black"}} minWidth={{base:"102px", md:"200px"}}>
                     <Image 
                         height={{base:"50px", md:"100px"}}
-                        src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--nodejs-programming-language-pack-logos-icons-1174925.png"
+                        src="https://cdn.iconscout.com/icon/free/png-256/free-node-js-logo-icon-download-in-svg-png-gif-file-formats--nodejs-programming-language-pack-logos-icons-1174925.png" alt="Node.js"
                     />
                         <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"center"}  >  Node.js
                         </Text>
@@ -63,7 +63,7 @@ export default function Skill(){
                 <Box justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}}  color={"white"} _hover={{backgroundColor:"white", color:"black"}} minWidth={{base:"102px", md:"200px"}}>
                     <Image 
                             height={{base:"46px", md:"100px"}} marginBottom={{base:"8px"}}
-                            src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"
+                            src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" alt="Express"
                     />
                         <Text fontSize={{base:"16px", md:"14px"}} textAlign={"center"}   > Express
                         </Text>
@@ -71,7 +71,7 @@ export default function Skill(){
                 <Box  justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}} _hover={{backgroundColor:"white", color:"black"}} color={"white"} minWidth={{base:"102px", md:"200px"}} >
                     <Image 
                             height={{base:"50px", md:"100px"}} justifyContent={"center"} 
-                            src="https://w7.pngwing.com/pngs/448/730/png-transparent-postgresql-plain-logo-icon.png"
+                            src="https://w7.pngwing.com/pngs/448/730/png-transparent-postgresql-plain-logo-icon.png" alt="PostgreSQL"
                     />
                         <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"center"} marginBottom={{base:"2px", md:"30px"}} >  PostgreSQL
                         </Text>

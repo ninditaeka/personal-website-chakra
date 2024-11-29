@@ -28,7 +28,7 @@ export default function Portofolio(){
                                 <Box justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}} _hover={{backgroundColor:"white",color:"black"}} color={"white"} minWidth={{base:"102px", md:"200px"}}>
                                     <Image 
                                         height={{base:"200px", md:"200px"}} rounded={10}
-                                        src="https://www.codewonders.dev/_next/image?url=https%3A%2F%2Fi.ibb.co%2FT0XwFsQ%2FScreen-Recording-2020-05-06-at-3.gif&w=640&q=75"
+                                        src="https://www.codewonders.dev/_next/image?url=https%3A%2F%2Fi.ibb.co%2FT0XwFsQ%2FScreen-Recording-2020-05-06-at-3.gif&w=640&q=75" alt="Web Uniqla Cover"
                                     />
                                     <Flex direction={"column"} width={"100%"}>
                                     <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"left"}> E-commerce  Uniqla Retail
@@ -70,9 +70,9 @@ export default function Portofolio(){
                               
                                 
                               <Grid templateColumns={{base:"repeat(1, 1fr)", md:"repeat(3, 1fr)"}}gap="2" >
-                                    <Image height={200} width={300} marginTop={8} marginLeft={1} src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*NnPSwONGlGnvUaUlwMinUg.png"/>
-                                    <Image height={200} width={300} marginTop={8}  marginLeft={1} src="https://cdn.dribbble.com/userupload/7071013/file/original-b7ebab2ecb65bb45ee0fe90d881c3a65.jpg?format=webp&resize=400x300&vertical=center"/>
-                                    <Image height={200} width={300} marginTop={8}  src="https://cdn.dribbble.com/users/1968956/screenshots/6988135/media/907eb955d0a774f47e38dae664cc7a97.png?resize=400x0"/>       
+                                    <Image height={200} width={300} marginTop={8} marginLeft={1} src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*NnPSwONGlGnvUaUlwMinUg.png" alt="Uniqla Pict 1"/>
+                                    <Image height={200} width={300} marginTop={8}  marginLeft={1} src="https://cdn.dribbble.com/userupload/7071013/file/original-b7ebab2ecb65bb45ee0fe90d881c3a65.jpg?format=webp&resize=400x300&vertical=center" alt="Uniqla Pict 2"/>
+                                    <Image height={200} width={300} marginTop={8}  src="https://cdn.dribbble.com/users/1968956/screenshots/6988135/media/907eb955d0a774f47e38dae664cc7a97.png?resize=400x0" alt="Uniqla Pict 3"/>       
 
                               </Grid>
                           </DialogBody>
@@ -88,7 +88,7 @@ export default function Portofolio(){
                                       <Box justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}} _hover={{backgroundColor:"white",color:"black"}} color={"white"} minWidth={{base:"102px", md:"200px"}}>
                                           <Image 
                                               height={{base:"200px", md:"200px"}} rounded={10}
-                                              src="https://uptbgis.bandaacehkota.go.id/wp-content/uploads/2023/12/webgis-930x490.jpg"
+                                              src="https://uptbgis.bandaacehkota.go.id/wp-content/uploads/2023/12/webgis-930x490.jpg" alt="WebGis Cover"
                                           />
                                           <Flex direction={"column"} width={"100%"}>
                                           <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"left"}> WebGis for Land and City Asset
@@ -131,9 +131,9 @@ export default function Portofolio(){
                                     
                                       
                                     <Grid templateColumns={{base:"repeat(1, 1fr)", md:"repeat(3, 1fr)"}}gap="2" >
-                                        <Image height={200} width={300} marginTop={2} marginLeft={1} src="https://karomap.com/media/uploads/2021/08/23-012939-sistem-informasi-database-webgis-gis-jalan-dan-jembatan-1.png"/>
-                                        <Image height={200} width={300} marginTop={2}   src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01grknbpec2k0zmphcxxdh1raz.png"/>
-                                        <Image height={200} width={300} marginTop={2}  src="https://lppm.itb.ac.id/wp-content/uploads/sites/55/2020/01/doc1-4.png"/>
+                                        <Image height={200} width={300} marginTop={2} marginLeft={1} src="https://karomap.com/media/uploads/2021/08/23-012939-sistem-informasi-database-webgis-gis-jalan-dan-jembatan-1.png" alt="WebGis Picture 1"/>
+                                        <Image height={200} width={300} marginTop={2}   src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1634025439/01grknbpec2k0zmphcxxdh1raz.png" alt="WebGis Picture 2"/>
+                                        <Image height={200} width={300} marginTop={2}  src="https://lppm.itb.ac.id/wp-content/uploads/sites/55/2020/01/doc1-4.png" alt="WebGis Picture 3"/>
                                     </Grid>
                                 </DialogBody>
                               </DialogContent>
@@ -146,10 +146,10 @@ export default function Portofolio(){
                                       <Box justifyItems={"center"} marginTop={"10px"} rounded={"lg"} backgroundColor={"gray.600"} padding={{base:"8px", md:"10px"}} _hover={{backgroundColor:"white",color:"black"}} color={"white"} minWidth={{base:"102px", md:"200px"}}>
                                           <Image 
                                               height={{base:"200px", md:"200px"}} width={{base:"500px"}}rounded={10}
-                                              src="https://www.jagoanhosting.com/blog/wp-content/uploads/2024/03/image-22.png"
+                                              src="https://www.jagoanhosting.com/blog/wp-content/uploads/2024/03/image-22.png" alt="Market Place Cover"
                                           />
                                           <Flex direction={"column"} width={"100%"}>
-                                          <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"left"}>E-commerce Ayoo Hotel
+                                          <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"left"}>Market Place Ayoo Hotel
                                           </Text>
                                           <Text  fontSize={{base:"16px", md:"14px"}} textAlign={"left"}>Technology:React, Express, Node.js,Redis, AWS,and PostgreSQL
                                           </Text>
@@ -189,9 +189,9 @@ export default function Portofolio(){
                                     
                                       
                                     <Grid templateColumns={{base:"repeat(1, 1fr)", md:"repeat(3, 1fr)"}}gap="2" >
-                                        <Image height={200} width={300} marginTop={2} marginLeft={1} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRea_fksLSdgkZqNJB7d6vuCGK56tLvBMUbzg&s"/>
-                                        <Image height={200} width={300} marginTop={2}   src="https://1.bp.blogspot.com/-TWHGvAToIcM/X0soiQHa9pI/AAAAAAAACaA/LU-URJrs0oII4nUf6za0Wo6Dz2pm3nkKwCLcBGAsYHQ/s640/SIstem%2BInformasi%2BReservasi%2BHotel%2BPHP2.png"/>
-                                        <Image height={200} width={300} marginTop={2}  src="https://cdn.dribbble.com/userupload/12251136/file/original-18f8a2880dc0e8a446cfc717d3e54a05.png?crop=0x0-3201x2401&format=webp&resize=400x300&vertical=center"/>
+                                        <Image height={200} width={300} marginTop={2} marginLeft={1} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRea_fksLSdgkZqNJB7d6vuCGK56tLvBMUbzg&s" alt="Market Place Picture1"/>
+                                        <Image height={200} width={300} marginTop={2}   src="https://1.bp.blogspot.com/-TWHGvAToIcM/X0soiQHa9pI/AAAAAAAACaA/LU-URJrs0oII4nUf6za0Wo6Dz2pm3nkKwCLcBGAsYHQ/s640/SIstem%2BInformasi%2BReservasi%2BHotel%2BPHP2.png" alt="Market Place Picture1"/>
+                                        <Image height={200} width={300} marginTop={2}  src="https://cdn.dribbble.com/userupload/12251136/file/original-18f8a2880dc0e8a446cfc717d3e54a05.png?crop=0x0-3201x2401&format=webp&resize=400x300&vertical=center"  alt="Market Place Picture1"/>
 
                                     </Grid>
                                 </DialogBody>

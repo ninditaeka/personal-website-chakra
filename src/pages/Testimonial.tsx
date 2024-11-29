@@ -23,7 +23,7 @@ export default function Testimonial(){
                                 <Flex gap="6">
                                     <Avatar 
                                     name="Matthew Jones"
-                                    src="https://randomuser.me/api/portraits/men/86.jpg"
+                                    src="https://randomuser.me/api/portraits/men/86.jpg" alt="Matthew Jones"
                                     />
                                     <Stack textStyle="sm" gap="0" textAlign={"left"}>
                                     <Text fontWeight="medium" color={"white"} >Matthew Jones</Text>
@@ -50,7 +50,7 @@ export default function Testimonial(){
                                 <Flex gap="6">
                                     <Avatar 
                                     name="Micheal Thomas"
-                                    src="https://randomuser.me/api/portraits/men/73.jpg"
+                                    src="https://randomuser.me/api/portraits/men/73.jpg" alt="Micheal Thomas"
                                     />
                                     <Stack textStyle="sm" gap="0" textAlign={"left"}>
                                     <Text fontWeight="medium" color={"white"} >Micheal Thomas</Text>

@@ -64,7 +64,8 @@ export default function Contact(){
                 Reach me in :{" "}
                 <Link 
                     marginLeft={2}
-                    href="https://www.linkedin.com/in/ninditaeka/"    
+                    href="https://www.linkedin.com/in/ninditaeka/"
+                    aria-label="linkedin"    
                     _hover={{borderColor:"white"}}
                  >
                     <SlSocialLinkedin size={30} color="white" />
@@ -72,6 +73,7 @@ export default function Contact(){
                 <Link  
                     marginLeft={2}
                     href="#"
+                    aria-label="twitter"
                     _hover={{borderColor:"white"}}
                  >
                     <SlSocialTwitter size={30} color="white" />
@@ -81,6 +83,7 @@ export default function Contact(){
                 <Link  
                     marginLeft={2}
                     href="https://github.com/ninditaeka"
+                    aria-label="github"
                     _hover={{borderColor:"white"}}
                  >
                     <SiGithub size={30} color="white" />

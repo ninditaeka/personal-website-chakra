@@ -10,7 +10,7 @@ return(
     <Flex direction={{base:"column"}} paddingX={{base:"16px", md:"300px"}} >
         <Flex  direction={{base:"column", md:"row"}}>
             <Flex marginTop={{base:"36px"}}  marginBottom={{base:"42px"}} justifyContent={{base:"center"}}>
-                <Image height={{base:"200px",md:"460px"}} width={{base:"200px",md:"460px"}} rounded="md" src={photo} />
+                <Image height={{base:"200px",md:"460px"}} width={{base:"200px",md:"460px"}} rounded="md" src={photo} alt="avatar"/>
             </Flex>
             <Flex direction={{base:"column"}}>
                 <Text textAlign={{base:"center", md:"left"}} marginTop={{base:"2px", md:"80px"}} fontWeight={500} fontSize={{base:"24px", md:"36px"}} color={'white'}>I'm <Text as={Span} color={'pink.solid'} fontSize={{base:"24px", md:"46px"}} >Nindita Eka Setyahandani</Text></Text>

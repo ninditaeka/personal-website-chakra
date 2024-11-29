@@ -50,7 +50,7 @@ export default function Testimonial(){
                                 <Flex gap="6">
                                     <Avatar 
                                     name="Micheal Thomas"
-                                    src="https://randomuser.me/api/portraits/men/73.jpg" alt="Micheal Thomas"
+                                    src="https://randomuser.me/api/portraits/men/73.jpg" alt="Micheal Thomas" 
                                     />
                                     <Stack textStyle="sm" gap="0" textAlign={"left"}>
                                     <Text fontWeight="medium" color={"white"} >Micheal Thomas</Text>

@@ -1,78 +1,66 @@
-import { Text,Separator, For, Stack, Timeline } from "@chakra-ui/react"
+import { Text, Flex, Separator } from "@chakra-ui/react"
 import {
     TimelineConnector,
+    TimelineDescription,
     TimelineContent,
     TimelineItem,
     TimelineRoot,
     TimelineTitle,
   } from "@/components/ui/timeline"
+  import { BsPersonVcardFill } from "react-icons/bs";
 
 
 export default function Experience(){
     return(
-        <div>
-              <Text color={"white"} marginTop={30} textStyle="3xl"  marginLeft={400} marginRight={200}> Experience </Text>
-            <div>
-            <Stack  marginTop={20} marginLeft={400} color="white" gap="8">
-      <For each={["lg"]}>
-             {(size) => (
-             <TimelineRoot size={size} key={size}>
-            <TimelineItem>
-              <TimelineContent width="auto">
-                <TimelineTitle whiteSpace="nowrap" marginRight={2} fontSize={16}>2022 - present</TimelineTitle>
-              </TimelineContent>
-              <TimelineConnector bgColor="pink.500"></TimelineConnector>
-              <Timeline.Content>
-                <TimelineTitle textAlign="justify" fontSize={20} fontWeight={600}  >
-                  Senior Web Developer 
-                </TimelineTitle>
-                <Text fontSize={15}> Microsoft, Jakarta</Text>
-                <Text  fontSize={12} textAlign="justify"  marginRight={400}>
-                Throughout my development projects, I oversaw the maintenance of best practices and high standards for a range of web applications. I worked collaboratively with cross-functional teams to develop unified, intuitive online apps that satisfied the needs of users and clients. My responsibilities included mentoring young developers, encouraging their career development, and carrying out exhaustive code reviews to guarantee quality and compliance with project specifications. I created and updated technical documentation to facilitate project collaboration, addressed bottlenecks to boost web application performance, and made sure the application was more responsive. Along with limiting downtime and putting strong security measures in place to protect online applications from vulnerabilities, I was also in charge of debugging and fixing complicated technical problems. 
-                </Text>
-              </Timeline.Content>
-            </TimelineItem>
+      <Flex direction={{base:"column"}} paddingX={{base:"16px", md:"300px"}}>
+         <Flex  direction={{base:"column"}} paddingY={{base:"30px"}}>
+            <Text color={"white"} textStyle="3xl"  > 
+            Experience
+            </Text>
 
+            <TimelineRoot  marginTop={{base:"16px"}}>
+              <TimelineItem>
+                <TimelineConnector>
+                <BsPersonVcardFill />
+                </TimelineConnector>
+                <TimelineContent>
+                  <TimelineTitle color={"white"}>Senior Web Developer | Microsoft, Jakarta</TimelineTitle>
+                  <TimelineDescription >2022 - present</TimelineDescription>
+                  <Text textStyle="sm" color={"white"} fontSize={{base:"12px", md:"16px"}} textAlign={"justify"}>
+                  I maintained high standards and best practices for web applications, collaborating with cross-functional teams to create intuitive online apps. I mentored junior developers, conducted thorough code reviews, and updated technical documentation. I optimized performance, ensured responsiveness, implemented security measures, and resolved technical issues efficiently.
+                  </Text>
+                </TimelineContent>
+              </TimelineItem>
 
-            <TimelineItem>
-              <TimelineContent width="auto">
-                <TimelineTitle whiteSpace="nowrap" marginRight={7} fontSize={16}> 2020 - 2022 </TimelineTitle>
-              </TimelineContent>
-              <TimelineConnector bgColor="pink.500"></TimelineConnector>
-              <Timeline.Content>
-                <TimelineTitle textAlign="justify" fontSize={20} fontWeight={600}  >
-                  Junior Web Developer 
-                </TimelineTitle>
-                <Text fontSize={15}> Accenture Indonesia, Jakarta</Text>
-                <Text  fontSize={12} textAlign="justify"  marginRight={400}>
-                Working on both front-end and back-end coding projects, I was in charge of supporting the creation of online applications. To add user-friendly features and enhance the overall operation of the website, I worked closely with senior developers and designers. Writing clear, maintainable code and troubleshooting problems to guarantee flawless performance were part of my job. I took an active part in code reviews and received insightful criticism that helped me improve my abilities. I also worked on performing extensive testing, enhancing website performance, and applying required changes. In order to accomplish project objectives and produce excellent outcomes quickly, I kept lines of communication open with team members and stakeholders during my employment.
-                </Text>
-              </Timeline.Content>
-            </TimelineItem>
+              <TimelineItem>
+                <TimelineConnector>
+                <BsPersonVcardFill />
+                </TimelineConnector>
+                <TimelineContent>
+                  <TimelineTitle color={"white"} >Junior Web Developer | Accenture Indonesia, Jakarta</TimelineTitle>
+                  <TimelineDescription >2020 - 2022</TimelineDescription>
+                  <Text textStyle="sm" color={"white"} fontSize={{base:"12px", md:"16px"}} textAlign={"justify"}>
+                  I developed both front-end and back-end code to create online applications, working closely with senior developers and designers. My responsibilities included writing clear, maintainable code, troubleshooting issues, and conducting code reviews. I also performed extensive testing, enhanced website performance, and implemented necessary changes while maintaining open communication with team members and stakeholders.
+                  </Text>
+                </TimelineContent>
+              </TimelineItem>
 
+              <TimelineItem>
+                <TimelineConnector>
+                <BsPersonVcardFill />
+                </TimelineConnector>
+                <TimelineContent>
+                  <TimelineTitle color={"white"} >Programmer | GITS Indonesia, Jakarta</TimelineTitle>
+                  <TimelineDescription >2019 - 2020</TimelineDescription>
+                  <Text textStyle="sm" color={"white"} fontSize={{base:"12px", md:"16px"}} textAlign={"justify"}>
+                  I designed, developed, and maintained dynamic websites and web applications, writing clean, efficient code for both front-end and back-end. I collaborated with designers and developers to meet project requirements and deliver high-quality solutions. My role involved troubleshooting, debugging, regular testing, and ensuring smooth performance across browsers. I kept up-to-date with emerging technologies to improve the development process and communicated effectively with team members and stakeholders to ensure project success and client satisfaction.
+                  </Text>
+                </TimelineContent>
+              </TimelineItem>
 
-            <TimelineItem>
-              <TimelineContent width="auto">
-                <TimelineTitle whiteSpace="nowrap" marginRight={7} fontSize={16}> 2019 - 2020 </TimelineTitle>
-              </TimelineContent>
-              <TimelineConnector bgColor="pink.500"></TimelineConnector>
-              <Timeline.Content>
-                <TimelineTitle textAlign="justify" fontSize={20} fontWeight={600}  >
-                  Programmer 
-                </TimelineTitle>
-                <Text fontSize={15}> GITS Indonesia, Jakarta</Text>
-                <Text  fontSize={12} textAlign="justify"  marginRight={400}>
-                As a Web Programmer, I played a crucial role in designing, developing, and maintaining dynamic websites and web applications. My responsibilities included writing clean, efficient code for both front-end and back-end components, ensuring optimal functionality and performance. I collaborated closely with designers and other developers to translate project requirements into technical specifications and deliver high-quality solutions. I was involved in troubleshooting and debugging to resolve issues promptly, conducting regular tests to ensure the applications ran smoothly across different browsers and devices. Additionally, I kept up-to-date with emerging web technologies and best practices to continually improve the development process. My role required strong attention to detail and effective communication with team members and stakeholders to ensure project success and client satisfaction.
-                </Text>
-              </Timeline.Content>
-            </TimelineItem>
-            
-          </TimelineRoot>
-            )}
-      </For>
-        </Stack>
-            </div>
-              <Separator marginTop={100} marginLeft={400} width={1100} size="sm"/>
-        </div>
-    )
+            </TimelineRoot>
+         </Flex>
+         <Separator size="md"/>
+      </Flex>
+           )
 }

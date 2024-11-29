@@ -1,6 +1,5 @@
-import { Text, Separator,Button,Link, Box,Fieldset, Input, Stack } from "@chakra-ui/react"
+import { Text, Button,Link, Box,Fieldset, Input, Stack, Flex } from "@chakra-ui/react"
 import { MdEmail } from "react-icons/md"
-import {  PiPhoneListFill } from "react-icons/pi";
 import { SlSocialLinkedin,SlSocialTwitter } from "react-icons/sl";
 import { SiGithub } from "react-icons/si";
 import { Field } from "@/components/ui/field"
@@ -13,58 +12,55 @@ import {
 
 export default function Contact(){
     return(
-        <div>
-            <Text color={"white"} marginTop={30} textStyle="3xl"  marginLeft={400} marginRight={200}> Contact Me</Text>
-            <Text textAlign={"right"} marginRight={400}>
-            <Button colorPalette={'pink'}><Link  color={'white'} fontSize={15} href="...">Contact me <PiPhoneListFill /></Link> </Button>
-            <Button colorPalette={'pink'}  marginLeft={10}><Link   color={'white'} fontSize={15} href="...">Send me message <MdEmail /></Link> </Button>
-            </Text>
+      <Flex direction={{base:"column"}} paddingX={{base:"16px", md:"300px"}} id="contact">
+         <Flex  direction={{base:"column"}} paddingY={{base:"30px"}}>
+         <Text color={"white"}  textStyle="3xl"  >
+                         Contact Me
+                    </Text>
+            
+          <Flex direction={{base:"column",md:"row"}} gap={"16px"} alignItems={"center"} justifyContent={"space-between"}>
+            <Fieldset.Root size="lg"   maxW="md" marginBottom={"30px"}>
+              <Stack>
+                <Fieldset.HelperText color="white">
+                  Please provide your contact details below.
+                </Fieldset.HelperText>
+              </Stack>
 
-            <Fieldset.Root size="lg" marginLeft={400}  maxW="md">
-      <Stack>
-        <Fieldset.Legend color="white">Contact Form</Fieldset.Legend>
-        <Fieldset.HelperText color="white">
-          Please provide your contact details below.
-        </Fieldset.HelperText>
-      </Stack>
+              <Fieldset.Content color={"white"}>
+                <Field label="Name">
+                  <Input name="name" />
+                </Field>
 
-      <Fieldset.Content color={"white"}>
-        <Field label="Name">
-          <Input name="name" />
-        </Field>
+                <Field label="Email address">
+                  <Input name="email" type="email" />
+                </Field>
 
-        <Field label="Email address">
-          <Input name="email" type="email" />
-        </Field>
+                <Field label="Country">
+                  <NativeSelectRoot>
+                    <NativeSelectField color={"black"}
+                      name="country"
+                      items={[
+                        "United Kingdom (UK)",
+                        "Canada (CA)",
+                        "United States (US)",
+                        "Indonesia (ID)",
+                      ]}
+                    />
+                  </NativeSelectRoot>
+                </Field>
+              </Fieldset.Content>
 
-        <Field label="Country">
-          <NativeSelectRoot>
-            <NativeSelectField color={"black"}
-              name="country"
-              items={[
-                "United Kingdom (UK)",
-                "Canada (CA)",
-                "United States (US)",
-                "Indonesia (ID)",
-              ]}
-            />
-          </NativeSelectRoot>
-        </Field>
-      </Fieldset.Content>
+              <Button type="submit" alignSelf="flex-start" bgColor="black" color="white" borderColor={"white"} _hover={{outlineColor:"pink.500"}}>
+                Submit
+              </Button>
+            </Fieldset.Root>
 
-      <Button type="submit" alignSelf="flex-start" bgColor="black" color="white" borderColor={"white"} _hover={{outlineColor:"pink.500"}}>
-        Submit
-      </Button>
-    </Fieldset.Root>
-
-
-                <div>
-                
-        
-
-        
+            <Button colorPalette={'pink'} marginBottom={"20px"} ><Link   color={'white'} fontSize={15} href="...">Send me message <MdEmail /></Link> </Button>
+          </Flex>
+              
             <Box>
-            <Text marginLeft={850} marginTop={50} color="white">
+            <Flex justifyContent={"center"}>
+            <Text  color="white" >
                 Reach me in :{" "}
                 <Link 
                     marginLeft={2}
@@ -75,7 +71,7 @@ export default function Contact(){
                 </Link>{" "}
                 <Link  
                     marginLeft={2}
-                    href="https://chakra-ui.com"
+                    href="#"
                     _hover={{borderColor:"white"}}
                  >
                     <SlSocialTwitter size={30} color="white" />
@@ -84,21 +80,20 @@ export default function Contact(){
 
                 <Link  
                     marginLeft={2}
-                    href="https://chakra-ui.com"
+                    href="https://github.com/ninditaeka"
                     _hover={{borderColor:"white"}}
                  >
                     <SiGithub size={30} color="white" />
                    
                 </Link>{" "}
-
-
-            
             </Text>
+            </Flex>
             </Box>
         
             
-            <Separator marginTop={100} marginLeft={400} width={1100} size="sm"/>
-            </div>
-        </div>
+          
+          </Flex>
+        
+        </Flex>
     )
 }

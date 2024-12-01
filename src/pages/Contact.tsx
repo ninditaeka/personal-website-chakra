@@ -28,16 +28,16 @@ export default function Contact(){
 
               <Fieldset.Content color={"white"}>
                 <Field label="Name">
-                  <Input name="name" />
+                  <Input backgroundColor={"white"} color={"black"} name="name" />
                 </Field>
 
                 <Field label="Email address">
-                  <Input name="email" type="email" />
+                  <Input backgroundColor={"white"} color={"black"} name="email" type="email" />
                 </Field>
 
-                <Field label="Country">
-                  <NativeSelectRoot>
-                    <NativeSelectField color={"white"}
+                <Field label="Country" >
+                  <NativeSelectRoot  backgroundColor={"white"} color={"black"} borderRadius={"2px"}>
+                    <NativeSelectField 
                       name="country"
                       items={[
                         "United Kingdom (UK)",

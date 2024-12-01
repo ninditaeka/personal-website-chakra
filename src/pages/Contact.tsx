@@ -37,7 +37,7 @@ export default function Contact(){
 
                 <Field label="Country">
                   <NativeSelectRoot>
-                    <NativeSelectField color={"black"}
+                    <NativeSelectField color={"white"}
                       name="country"
                       items={[
                         "United Kingdom (UK)",

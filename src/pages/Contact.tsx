@@ -72,7 +72,7 @@ export default function Contact(){
                 </Link>{" "}
                 <Link  
                     marginLeft={2}
-                    href="#"
+                    href="https://x.com/"
                     aria-label="twitter"
                     _hover={{borderColor:"white"}}
                  >
